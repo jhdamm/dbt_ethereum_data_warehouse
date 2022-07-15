@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: crypto_ethereum_snapshot
+    description: This is a replica of the Big Query ethereum database
+    database: crypto_ethereum_snapshot
+    tables:
+      - name: balances
+      - name: blocks
+      - name: contracts
+      - name: logs
+      - name: sessions
+      - name: tokentransfers
+      - name: tokens
+      - name: traces
+      - name: transactions
+
