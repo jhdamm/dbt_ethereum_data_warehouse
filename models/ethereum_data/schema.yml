@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: crypto_ethereum_snapshot
     description: This is a replica of the Big Query ethereum database
-    database: crypto_ethereum_snapshot
+    database: ethereum-data-warehouse
     tables:
       - name: balances
       - name: blocks
